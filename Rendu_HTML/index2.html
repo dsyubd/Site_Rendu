@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site du Star Wars Univers</title>
+    <link rel="stylesheet" href="css/p_index2.css">
+    <link rel="shortcut icon" type="image/png" href="image/favicon_sl.png"/>
+
+</head>
+<body>
+    
+    <header>
+        <h1><img src="image/bande_site_1.png" alt=""></h1>
+        <nav>
+            <ul>
+                <button id="toggleModeBtn">Changer de Mode</button>
+                <button class="bouton"><a href="page_formulaire.html">Se connecter</a></button>
+                <li>
+                    <button class="bouton"><a href="page_luke.html">Luke Skywalker</a></button>
+                </li>
+                    <button class="bouton"><a href="page_taooine.html">Tatooine</a></button>
+                </li>
+                <li class="dropdown">
+                    <button class="bouton">Univers <span>&#9660;</span></button>
+                    <div class="menu-content dropdown-content">
+                        <a href="#">Planète 1</a>
+                        <a href="#">Planète 2</a>
+                        <a href="#">Planète 3</a>
+                        <a href="#">Planète 4</a>
+                        <a href="#">Personnage 1</a>
+                        <a href="#">Personnage 2</a>
+                        <a href="#">Personnage 3</a>
+                        <a href="#">Personnage 4</a>
+                    </div>
+                    
+                </li>
+                
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide" id="slide1"></div>
+              <div class="slide" id="slide2"></div>
+              <div class="slide" id="slide3"></div>
+              <div class="slide" id="slide4"></div>
+            </div>
+            <button class="prev-btn" onclick="prevSlide()">&#9664;</button>
+            <button class="next-btn" onclick="nextSlide()">&#9654;</button>
+          </div>
+
+          
+
+        <section>
+            <h2>Bienvenue dans l'univers de Star Wars</h2>
+
+            <div>
+                <p>L'histoire de Star Wars, se déroule dans une galaxie qui est le théâtre d'affrontements entre les Chevaliers Jedis et les Seigneurs Siths,
+                personnes antagonistes sensibles à la Force, un champ énergétique mystérieux leur procurant des pouvoirs psychiques. 
+                Les Jedi maîtrisent le Côté lumineux de la Force, pouvoir bénéfique et défensif, pour maintenir la paix dans la galaxie. 
+                Les Sith utilisent le Côté obscur, pouvoir nuisible et destructeur, pour leurs usages personnels et pour dominer la galaxie</p>
+                <h3><img src="image/sw_deco_1.jpg" alt="" title="L'univers de Star Wars"></h3>
+            </div>
+            <article>
+                <p>L'univers officiel de Star Wars rassemble l'ensemble des histoires, lieux et personnages considérés comme officiels par la société propriétaire de la franchise : Lucasfilms.  Il est appelé le canon par Lucasfilm.
+                    Depuis les années 1980, un nombre important d’œuvres dérivées ont été produites autour de l'univers de Star Wars, censées se dérouler avant, pendant ou après la trilogie original (1977-1983) et la prélogie (1999-2005). Cet ensemble a été connu sous le nom d'« univers étendu » pendant plusieurs décennies, et organisé par Lucasfilm qui décidait du degré de canonicité des œuvres.
+                    En octobre 2012, Disney achète Lucasfilm et annonce une nouvelle trilogie dont l'histoire aura lieu après les événements de l'épisode VI. Afin de clarifier l'univers de la franchise et de s'émanciper des œuvres précédentes, une partie de l'univers étendu est regroupée sous l’appellation « Star Wars Legends » en avril 2014, et est déclarée comme ne faisant plus partie de la saga officielle. Le canon se compose ainsi des neuf films Star Wars, des trois films dérivés, des séries télévisées d'animation The Clone Wars, Rebels, Star Wars Resistance et Forces du Destin, de la série The Mandalorian et de la plupart des romans et autres œuvres sur d'autres supports sortis depuis le 25 avril 2014.
+                </p>
+                <h4><img src="image/sw_chrono.jpg" alt="" title="La chronologie de l'univers de Star Wars"></h4>
+
+            </article>
+            
+           
+            
+        </section>
+    </main>
+    
+    <footer>
+        <p><a href="">Mentions Légales</a></p>
+        <p><a href="">Nous contacter</a></p>
+    </footer>
+    
+<script src="js/main.js"></script>
+
+<script src="js/mode.js"></script>
+<script src="js/slider.js"></script>
+
+
+</body>
+</html>
